@@ -1,0 +1,10 @@
+﻿sudo systemctl start bluetooth
+sudo rfkill unblock bluetooth
+[open bt terminal]
+bluetoothctl
+list
+scan on
+[search for device’s MAC addrress and copy it]
+exit
+[F0:AE:66:B6:22:F5 for r50i]
+bluetoothctl connect <MAC>	

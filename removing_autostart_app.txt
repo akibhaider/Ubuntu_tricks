@@ -1,0 +1,8 @@
+Go to "Show Application" and look for "Startup APllication". 
+
+If app found -> Remove the desired application that is to be reomved
+
+If app not found -> Install the autostart application.
+	   	  -> sudo apt update -> sudo apt install gnome-autostart-applications
+	   	  -> Find the autostart dir from the "config" dir. cd ~/.config -> cd autostart -> rm -r <application_name_to_remove>  
+
